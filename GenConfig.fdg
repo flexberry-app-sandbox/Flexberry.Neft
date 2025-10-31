@@ -42,19 +42,19 @@
     },
     "Storage": {
       "Mssql": {
+        "DiffSql": false,
+        "FullSql": true,
+        "LiquibaseSql": false,
+        "Security": false,
+        "AdminUser": false,
+        "ConnectionString": null
+      },
+      "PostgreSql": {
         "DiffSql": true,
         "FullSql": true,
         "LiquibaseSql": true,
         "Security": true,
         "AdminUser": true,
-        "ConnectionString": null
-      },
-      "PostgreSql": {
-        "DiffSql": false,
-        "FullSql": false,
-        "LiquibaseSql": false,
-        "Security": false,
-        "AdminUser": false,
         "ConnectionString": null
       },
       "ClickHouse": {
@@ -79,7 +79,7 @@
     },
     "Metadata": {
       "Crp": false,
-      "Json": false,
+      "Json": true,
       "Jdl": false,
       "PlantUML": false
     }
